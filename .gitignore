@@ -1,0 +1,19 @@
+# Ignore common large model files
+*.pkl
+*.joblib
+*.h5
+*.pth
+
+# Specific model files generated
+linear_regression.joblib
+decision_tree.joblib
+random_forest.joblib
+knn.joblib
+scaler.joblib
+feature_columns.joblib
+model_comparison.csv
+
+# Ignore Jupyter/Colab checkpoints and temporary files
+.ipynb_checkpoints/
+.history/
+__pycache__/
